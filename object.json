@@ -1,0 +1,40 @@
+{ 
+	"week" : {
+			"Monday":{ 
+					"start_time": ""
+					"end_time": ""
+				}
+			"Tuesday":{
+					"start_time": ""
+                                        "end_time": ""
+				 }
+			"Wednesday":  { 
+                                        "start_time": ""
+                                        "end_time": ""
+					}
+			"Thursday": {
+					"start_time": ""
+                                        "end_time": ""
+					}
+			"Friday": {
+					"start_time": ""
+                                        "end_time": ""
+					}
+			"Saturday": {
+					"start_time": ""
+                                        "end_time": ""
+					}
+			"Sunday":{
+					"start_time": ""
+                                        "end_time": ""
+					}
+		}
+	"Deadline" :
+		 {
+			"title" : "",
+			"day" : "",
+			"time" : "",
+			"duration" : 0
+		 },
+}
+
