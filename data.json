@@ -1,0 +1,43 @@
+ {
+	"week" : {
+			"Avarage" : {
+				"start_time": 0,
+				"end_time": 11.00
+			},
+			"Monday" : { 
+					"start_time": 0,
+					"end_time": 0
+				},
+			"Tuesday" : {
+					"start_time":0 ,
+                    "end_time": 0
+				 },
+			"Wednesday" : { 
+                        "start_time": 0,
+                        "end_time": 0
+					},
+			"Thursday" : {
+					"start_time": 0,
+                    "end_time": 0
+					},
+			"Friday" : {
+					"start_time": 0,
+                    "end_time": 0
+					},
+			"Saturday" : {
+					"start_time": 0,
+                    "end_time": 0
+					},
+			"Sunday" : {
+					"start_time": 0,
+                    "end_time": 0
+					}
+		},
+	"Deadline" : {
+			"title" : "",
+			"day" : "",
+			"time" : 0,
+			"duration" : 0
+		 }
+}
+
