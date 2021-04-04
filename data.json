@@ -1,7 +1,7 @@
 {
   "week": {
     "Avarage": {
-      "start_time": 5.0,
+      "start_time": 4.0,
       "end_time": 11.0
     },
     "Monday": {
@@ -21,7 +21,7 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Philosophy",
+        "title": "Calculus",
         "time": 3.0,
         "duration": 2.0,
         "schedule_start": {
@@ -60,9 +60,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Calculus",
-        "time": 2.0,
-        "duration": 2.0,
+        "title": "Math",
+        "time": 4.0,
+        "duration": 3.0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -73,8 +73,8 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Physics",
-        "time": 7.0,
+        "title": "Philosophy",
+        "time": 10.0,
         "duration": 2.0,
         "schedule_start": {
           "Day": "",
