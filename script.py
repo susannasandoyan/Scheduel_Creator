@@ -27,9 +27,7 @@ def textToNum(text):
         if(text == arr[i]):
             return i
 weekdays = []
-# print(type(load_days()))
 days = load_days()
-# print(days)
 print("Hello! Please answer to all questions carefully and follow the formats that are given \n ")
 print ("Please be informed , if you want a deadline to be scheduled you have to insert at least one day before it\n")
 print("Program works only for one week, and you can register only one deadline on each day \n")
@@ -38,9 +36,9 @@ diff = days["week"]["Avarage"]["end_time"] - days["week"]["Avarage"]["start_time
 number_of_deadlines = int(input("How many deadlines do you have this week?"))
 x = datetime.datetime.now()
 day_text = day_of_week(datetime.datetime.today().weekday())
-# day_num = datetime.datetime.today().weekday()
-day_num = 0
+day_num = datetime.datetime.today().weekday()
 for i in range (0,number_of_deadlines):
+    print("Please anwer to the following few question for the deadline that you have \n")
     day = input("On which day of the week is it? (Please insert in the following way: Tuesday,Thursday etc.) \n")
     if (day == "Monday"):
         print("You cannot insert Monday")
@@ -52,8 +50,8 @@ for i in range (0,number_of_deadlines):
         weekdays.append(day)
         print(day)
         days["week"][day]["Deadline"]["title"] = input("What subject is it from? \n")
-        days["week"][day]["Deadline"]["time"] = float(input("At what time is the deadline? \n"))
-        days["week"][day]["Deadline"]["duration"] =  float(input("How long you think it will take in hours \n"))
+        days["week"][day]["Deadline"]["time"] = float(input("At what time is the deadline?(please insert only numbers, e.g. 5pm = 5) \n"))
+        days["week"][day]["Deadline"]["duration"] =  float(input("How long you think it will take in hours (please insert only numbers, e.g. 2 hours = 2) \n"))
     
 save_to_the_file(days)
 
