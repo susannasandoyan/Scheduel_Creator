@@ -1,101 +1,99 @@
- {
-	"week" : {
-			"Avarage" : {
-				"start_time": 0,
-				"end_time": 11.00
-			},
-			"Monday" : { 
-					"start_time": 0,
-					"end_time": 0,
-					"Deadline" : {
-						"title" : "",
-						"time" : 0,
-						"duration" : 0,
-						"schedule_start" : {
-							"Day" : "",
-							"sttime" : 0
-						}
-					 }
-				},
-			"Tuesday" : {
-					"start_time":0 ,
-                    "end_time": 0,
-					"Deadline" : {
-						"title" : "",
-						"time" : 0,
-						"duration" : 0,
-						"schedule_start" : {
-							"Day" : "",
-							"sttime" : 0
-						}
-					 }
-				 },
-			"Wednesday" : { 
-                        "start_time": 0,
-                        "end_time": 0,
-						"Deadline" : {
-							"title" : "",
-							"time" : 0,
-							"duration" : 0,
-							"schedule_start" : {
-								"Day" : "",
-								"sttime" : 0
-							}
-						 }
-					},
-			"Thursday" : {
-					"start_time": 0,
-                    "end_time": 0,
-					"Deadline" : {
-						"title" : "",
-						"time" : 0,
-						"duration" : 0,
-						"schedule_start" : {
-							"Day" : "",
-							"sttime" : 0
-						}
-					 }
-					},
-			"Friday" : {
-					"start_time": 0,
-                    "end_time": 0,
-					"Deadline" : {
-						"title" : "",
-						"time" : 0,
-						"duration" : 0,
-						"schedule_start" : {
-							"Day" : "",
-							"sttime" : 0
-						}
-					 }
-					},
-			"Saturday" : {
-					"start_time": 0,
-                    "end_time": 0,
-					"Deadline" : {
-						"title" : "",
-						"time" : 0,
-						"duration" : 0,
-						"schedule_start" : {
-							"Day" : "",
-							"sttime" : 0
-						}
-					 }
-					},
-			"Sunday" : {
-					"start_time": 0,
-                    "end_time": 0,
-					"Deadline" : {
-						"title" : "",
-						"time" : 0,
-						"duration" : 0,
-						"schedule_start" : {
-							"Day" : "",
-							"sttime" : 0
-						}
-					 }
-					}
-		}
-
+{
+  "week": {
+    "Avarage": {
+      "start_time": 5.0,
+      "end_time": 11.0
+    },
+    "Monday": {
+      "start_time": 0,
+      "end_time": 0,
+      "Deadline": {
+        "title": "",
+        "time": 0,
+        "duration": 0,
+        "schedule_start": {
+          "Day": "",
+          "sttime": 0
+        }
+      }
+    },
+    "Tuesday": {
+      "start_time": 0,
+      "end_time": 0,
+      "Deadline": {
+        "title": "Philosophy",
+        "time": 3.0,
+        "duration": 2.0,
+        "schedule_start": {
+          "Day": "",
+          "sttime": 0
+        }
+      }
+    },
+    "Wednesday": {
+      "start_time": 0,
+      "end_time": 0,
+      "Deadline": {
+        "title": "Prog",
+        "time": 2.0,
+        "duration": 2.0,
+        "schedule_start": {
+          "Day": "",
+          "sttime": 0
+        }
+      }
+    },
+    "Thursday": {
+      "start_time": 0,
+      "end_time": 0,
+      "Deadline": {
+        "title": "Freshman Seminar",
+        "time": 4.0,
+        "duration": 2.0,
+        "schedule_start": {
+          "Day": "",
+          "sttime": 0
+        }
+      }
+    },
+    "Friday": {
+      "start_time": 0,
+      "end_time": 0,
+      "Deadline": {
+        "title": "Calculus",
+        "time": 2.0,
+        "duration": 2.0,
+        "schedule_start": {
+          "Day": "",
+          "sttime": 0
+        }
+      }
+    },
+    "Saturday": {
+      "start_time": 0,
+      "end_time": 0,
+      "Deadline": {
+        "title": "Physics",
+        "time": 7.0,
+        "duration": 2.0,
+        "schedule_start": {
+          "Day": "",
+          "sttime": 0
+        }
+      }
+    },
+    "Sunday": {
+      "start_time": 0,
+      "end_time": 0,
+      "Deadline": {
+        "title": "Mechanics",
+        "time": 3.0,
+        "duration": 2.0,
+        "schedule_start": {
+          "Day": "",
+          "sttime": 0
+        }
+      }
+    }
+  }
 }
-
