@@ -1,9 +1,10 @@
 {
   "week": {
     "Avarage": {
-      "start_time": 4.0,
+      "start_time": 3.0,
       "end_time": 11.0
-    },
+    }
+    ,
     "Monday": {
       "start_time": 0,
       "end_time": 0,
@@ -21,7 +22,7 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Calculus",
+        "title": "",
         "time": 3.0,
         "duration": 2.0,
         "schedule_start": {
@@ -34,8 +35,8 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Prog",
-        "time": 2.0,
+        "title": "Calculus",
+        "time": 7.0,
         "duration": 2.0,
         "schedule_start": {
           "Day": "",
@@ -60,8 +61,8 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Math",
-        "time": 4.0,
+        "title": "Mkkj",
+        "time": 7.0,
         "duration": 3.0,
         "schedule_start": {
           "Day": "",
@@ -87,8 +88,8 @@
       "end_time": 0,
       "Deadline": {
         "title": "Mechanics",
-        "time": 3.0,
-        "duration": 2.0,
+        "time": 4.0,
+        "duration": 3.0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
