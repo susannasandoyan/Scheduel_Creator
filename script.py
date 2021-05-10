@@ -36,14 +36,15 @@ def main():
     print("Program works only for one week, and you can register only one deadline on each day \n")
     days["week"]["Avarage"]["start_time"] = float(input("What is the avarage time in week, that you are busy? please insert only numbers (sample 8:30 pm is 8.30)"))
     diff = days["week"]["Avarage"]["end_time"] - days["week"]["Avarage"]["start_time"]
-    number_of_deadlines = int(input("How many deadlines do you have this week? \n\n"))
+    number_of_deadlines = int(input("How many deadlines do you have this week? \n"))
     #-------------------------------------------------------------------------------------
     #day_text = day_of_week(datetime.datetime.today().weekday())
     #day_num = datetime.datetime.today().weekday()
     day_num = 0
     for i in range (0,number_of_deadlines):
+        strr = str(i + 1)
         print("Please answer to the following few question for the deadline that you have \n")
-        day = input("On which day of the week is it? (Please insert in the following way: Tuesday,Thursday etc.) \n")
+        day = input("On which day of the week is your deadline "+ strr +" ? (Please insert in the following way: Tuesday,Thursday etc.) \n")
         if (day == "Monday"):
             print("You cannot insert Monday")
             continue
