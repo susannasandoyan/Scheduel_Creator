@@ -1,7 +1,8 @@
 {
   "week": {
     "Avarage": {
-      "start_time": 12.3,
+      "start_time": 3.3,
+      "start_str": "3:30",
       "end_time": 11.0
     },
     "Monday": {
@@ -60,9 +61,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "fdfkj]",
-        "time": 4.0,
-        "duration": 3.0,
+        "title": "Mechanics",
+        "time": 3.3,
+        "duration": 2.0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -73,9 +74,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Programming",
+        "title": "Mechanics",
         "time": 3.3,
-        "duration": 4.0,
+        "duration": 2.0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -86,9 +87,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "hxj",
-        "time": 12.0,
-        "duration": 22.0,
+        "title": "Musci",
+        "time": 14.2,
+        "duration": 2.0,
         "schedule_start": {
           "Day": "",
           "sttime": 0

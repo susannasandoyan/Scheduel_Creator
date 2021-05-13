@@ -8,6 +8,7 @@ def load_days():
 
 weekdays = []
 days = load_days()
+
 def str_to_time(string):
     i = 1
     j = 1
@@ -24,8 +25,8 @@ def str_to_time(string):
     while(i<len(string)):
         flot +=string[i]
         i+=1
-        flot = format(float(flot),".2f")
     return float(flot)
+    
 def check_deadline(day):
     if(days["week"][day]["Deadline"]["time"]):
         return 1
@@ -47,12 +48,14 @@ def textToNum(text):
         if(text == arr[i]):
             return i
 
+
 def main():
 
     print("Hello! Please answer to all questions carefully and follow the formats that are given \n ")
     print ("Please be informed , if you want a deadline to be scheduled you have to insert at least one day before it\n")
     print("Program works only for one week, and you can register only one deadline on each day \n")
-    days["week"]["Avarage"]["start_time"] = str_to_time(input("What is the avarage time in week, that you are busy? Insert in the following way : 12:00 pm = 12:00,3:30 pm = 3:30 etc.)\n"))
+    days["week"]["Avarage"]["start_str"] = input("Untill what time in the week in avarage,are you busy? Insert in the following way : 12:00 pm = 12:00,3:30 pm = 3:30 etc.)\n")
+    days["week"]["Avarage"]["start_time"] = str_to_time(days["week"]["Avarage"]["start_str"])
     diff = days["week"]["Avarage"]["end_time"] - days["week"]["Avarage"]["start_time"]
     number_of_deadlines = int(input("How many deadlines do you have this week?\n"))
     #-------------------------------------------------------------------------------------
@@ -64,7 +67,7 @@ def main():
         day = input("On which day of the week is your deadline "+ strr +" ? (Please insert in the following way: Tuesday,Thursday etc.) \n")
         if (day == "Monday"):
             print("You cannot insert Monday")
-            continue
+            quit()
         if(textToNum(day) < day_num):
             print("Your Deadline was passed")
             continue
@@ -81,10 +84,10 @@ def main():
         if(time_need < diff):
             day_in_text = day_of_week(textToNum(weekdays[i]) - 1)
             days["week"][weekdays[i]]["Deadline"]["schedule_start"]["Day"] = day_in_text
-            days["week"][weekdays[i]]["Deadline"]["schedule_start"]["sttime"] = days["week"]["Avarage"]["start_time"]
+            days["week"][weekdays[i]]["Deadline"]["schedule_start"]["sttime"] = days["week"]["Avarage"]["start_str"]
 
     for i in range (0,number_of_deadlines):
-        print("You can start your assignment of " + str(days["week"][weekdays[i]]["Deadline"]["title"]) + " on " + str(days["week"][weekdays[i]]["Deadline"]["schedule_start"]["Day"]) + " at " + str(days["week"]["Avarage"]["start_time"]) + " pm \n"
+        print("You can start your assignment of " + str(days["week"][weekdays[i]]["Deadline"]["title"]) + " on " + str(days["week"][weekdays[i]]["Deadline"]["schedule_start"]["Day"]) + " at " + str(days["week"]["Avarage"]["start_str"]) + " pm \n"
       )
 
 
