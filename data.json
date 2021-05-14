@@ -1,8 +1,8 @@
 {
   "week": {
     "Avarage": {
-      "start_time": 3.3,
-      "start_str": "3:30",
+      "start_time": 0,
+      "start_str": "",
       "end_time": 11.0
     },
     "Monday": {
@@ -23,8 +23,8 @@
       "end_time": 0,
       "Deadline": {
         "title": "",
-        "time": 3.0,
-        "duration": 2.0,
+        "time": 0,
+        "duration": 0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -35,9 +35,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Calculus",
-        "time": 7.0,
-        "duration": 2.0,
+        "title": "",
+        "time": 0,
+        "duration": 0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -48,9 +48,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Freshman Seminar",
-        "time": 4.0,
-        "duration": 2.0,
+        "title": "",
+        "time": 0,
+        "duration": 0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -61,9 +61,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Mechanics",
-        "time": 3.3,
-        "duration": 2.0,
+        "title": "",
+        "time": 0,
+        "duration": 0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -74,9 +74,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Mechanics",
-        "time": 3.3,
-        "duration": 2.0,
+        "title": "",
+        "time": 0,
+        "duration": 0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
@@ -87,9 +87,9 @@
       "start_time": 0,
       "end_time": 0,
       "Deadline": {
-        "title": "Musci",
-        "time": 14.2,
-        "duration": 2.0,
+        "title": "",
+        "time": 0,
+        "duration": 0,
         "schedule_start": {
           "Day": "",
           "sttime": 0
