@@ -70,7 +70,7 @@ def main():
             quit()
         if(textToNum(day) < day_num):
             print("Your Deadline was passed")
-            continue
+            quit()
         elif(textToNum(day) > day_num):
             weekdays.append(day)
             days["week"][day]["Deadline"]["title"] = input("What subject is it from? \n")
